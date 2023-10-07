@@ -2,75 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- <style>
-        h1
-        {
-            font-size: 40px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: normal;
-            color: black;
-            text-align: center;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ company_name }} Career</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #banner {
+            height: 360px;
+            width: 100%;
+            object-fit: cover;
         }
-
-        #banner{
-             width: 100%;
-             height: 360px;
-             object-fit: cover;
-        }
-
-        h2{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 32px;
-            color: black;
-            text-align: center;
-            font-weight: normal;
-        }
-
-        .bt{
-            font-family: 'Times New Roman', Times, serif;
-            color: black;
-        }
-
-        #container {
-            max-width: fit-content;
-            margin:0 auto;
-        }
-    </style> -->
+    </style>
 </head>
 <body>
-    <!-- <div id="container"> -->
+    <div class="container">
+        <h1 class="text-center mt-2 mb-4">{{ company_name }} Career</h1>
+        <img class="img-fluid" id="banner" src="{{ url_for('static', filename='banner.jpg') }}" alt="Company Banner">
+        <h2 class="text-center mt-2">About</h2>
+        <p class="lead">
+            Welcome to {{ company_name }}! We are a leading tech company dedicated to innovation and excellence. Our team of passionate professionals works together to create cutting-edge solutions that make a difference in the world.
+
+            At {{ company_name }}, we value creativity, collaboration, and continuous learning. Our workplace is inclusive, and we encourage diversity in thought and background. We believe that our people are our greatest asset.
+
+            Join us in our journey to shape the future of technology. Together, we can achieve great things.
+        </p>
+        <h2 class="text-center mt-2">Open Positions</h2>
         <div>
-    <h1>Career</h1>
-    <img id="banner" src="http://127.0.0.1:5500/website/static/banner.jpg">
-    <h2>About</h2>
-    <!-- <p class="bt"> -->
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci ac auctor augue mauris augue neque gravida in fermentum. Convallis convallis tellus id interdum velit laoreet id donec. Ornare quam viverra orci sagittis eu. Adipiscing at in tellus integer feugiat. Lacinia at quis risus sed vulputate odio ut enim blandit. Magna fringilla urna porttitor rhoncus dolor purus. Quis blandit turpis cursus in hac habitasse platea dictumst. Aliquam sem fringilla ut morbi tincidunt. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Sit amet consectetur adipiscing elit duis tristique sollicitudin.
-
-Nunc non blandit massa enim nec dui nunc mattis enim. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Duis at tellus at urna condimentum mattis. Vestibulum morbi blandit cursus risus at ultrices. Et netus et malesuada fames ac turpis egestas integer eget. Enim ut tellus elementum sagittis vitae. Augue neque gravida in fermentum. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Sit amet justo donec enim diam. Ipsum faucibus vitae aliquet nec ullamcorper sit. Et malesuada fames ac turpis egestas. Scelerisque purus semper eget duis at tellus at. Orci eu lobortis elementum nibh. Fames ac turpis egestas maecenas. Aliquet sagittis id consectetur purus ut faucibus. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Lectus nulla at volutpat diam ut venenatis. Cursus in hac habitasse platea dictumst quisque sagittis. Ac auctor augue mauris augue neque gravida in.
-
-Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Scelerisque in dictum non consectetur a erat. Odio ut sem nulla pharetra. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Nullam eget felis eget nunc lobortis mattis. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Malesuada bibendum arcu vitae elementum curabitur vitae. Erat velit scelerisque in dictum non consectetur a erat. Adipiscing elit duis tristique sollicitudin nibh. Nibh praesent tristique magna sit amet purus gravida quis. Eget duis at tellus at urna. Pretium aenean pharetra magna ac placerat.
-
-Vitae tempus quam pellentesque nec nam aliquam sem. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Massa tempor nec feugiat nisl pretium fusce id. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Mauris cursus mattis molestie a iaculis at erat pellentesque. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Enim sed faucibus turpis in eu mi bibendum neque. Morbi quis commodo odio aenean sed adipiscing diam donec. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Scelerisque felis imperdiet proin fermentum. Purus in mollis nunc sed id semper risus in hendrerit. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Nulla at volutpat diam ut venenatis tellus.
-
-Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Pellentesque diam volutpat commodo sed egestas egestas. Turpis egestas sed tempus urna et pharetra. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Consectetur libero id faucibus nisl tincidunt eget. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Massa sapien faucibus et molestie ac feugiat sed lectus. Mi sit amet mauris commodo quis imperdiet. Non arcu risus quis varius quam quisque id.
-    </p>
-    <h2>
-        Open Position
-    </h2>
-    <!-- <p class="bt"> -->
-        <p>
-        TODO -Show jobs here
-    </p>
-    <!-- <div style="text-align: center;"> -->
-        <div>
-       <button>Contact Us</button>   
-       <p>Copyright 2022</p>
-    </div>
-  
+            {% for job in jobs %}
+            <div style="margin-bottom: 16px;">
+                <h4 style="color: #333;">{{ job['title'] }}</h4>
+                <div><b>Location:</b> {{ job['location'] }}</div>
+                <div><b>Salary:</b> {{ job['salary'] }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-primary btn-lg">Contact Us</button>
+            <p class="mt-4">Copyright 2022</p>
+        </div>
     </div>
 </body>
 </html>
