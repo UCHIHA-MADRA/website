@@ -29,11 +29,7 @@
         <h2 class="text-center mt-2">Open Positions</h2>
         <div>
             {% for job in jobs %}
-            <div style="margin-bottom: 16px;">
-                <h4 style="color: #333;">{{ job['title'] }}</h4>
-                <div><b>Location:</b> {{ job['location'] }}</div>
-                <div><b>Salary:</b> {{ job['salary'] }}</div>
-            </div>
+            {% include 'jobitem.html' %}
             {% endfor %}
         </div>
         <div class="text-center mt-4">
